@@ -13,7 +13,7 @@ export default function Home() {
       <nav className="my-16 animate-fade-in">
         <ul className="flex items-center justify-center gap-4">
           {navigation.map((item) => (
-            <Link key={item.href} href={item.href} className="text-sm duration-500 text-zinc-700 hover:text-zinc-300">
+            <Link key={item.href} href={item.href} className="text-sm duration-250 text-zinc-700 hover:text-zinc-300">
               {item.name}
             </Link>
           ))}
@@ -21,8 +21,8 @@ export default function Home() {
       </nav>
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <Particles className="absolute inset-0 -z-10 animate-fade-in" quantity={100} />
-      <h1 className="z-5 text-6xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-3xl md:text-4xl whitespace-nowrap bg-clip-text ">
-        Timothy J. Appleby
+      <h1 className="z-5 text-6xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-6xl whitespace-nowrap bg-clip-text ">
+        TJ APPLEBY
       </h1>
 
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />

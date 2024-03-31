@@ -38,6 +38,14 @@ const calSans = LocalFont({
   variable: '--font-calsans',
 });
 
+/**
+ * Layout
+ * @description Display a screens helper for debugging.
+ *
+ * @export
+ * @param {{ children: React.ReactNode }} { children }
+ * @return {*}
+ */
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={[inter.variable, calSans.variable].join(' ')}>

@@ -3,6 +3,10 @@ import { ArrowLeft } from 'lucide-react';
 import Link from 'next/link';
 import React, { useEffect, useRef, useState } from 'react';
 
+/**
+ * Navigation Bar
+ * @returns React.FC
+ */
 export const Navigation: React.FC = () => {
   const ref = useRef<HTMLElement>(null);
   const [isIntersecting, setIntersecting] = useState(true);

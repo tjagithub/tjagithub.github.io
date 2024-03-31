@@ -9,7 +9,7 @@ const socials = [
     key: 0,
     icon: <Twitter size={20} />,
     href: 'https://twitter.com/_tja',
-    label: 'X',
+    label: 'Twitter',
     handle: '@_tja',
   },
   {
