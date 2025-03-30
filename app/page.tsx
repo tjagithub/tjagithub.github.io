@@ -28,7 +28,7 @@ export default function Home() {
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <div className="my-16 text-center animate-fade-in">
         <h2 className="text-sm text-zinc-500 ">
-          I'm a software tester and developer interested in open source, AI, and automation.
+          I'm a interested in open source, AI, and automation.
         </h2>
       </div>
     </div>
