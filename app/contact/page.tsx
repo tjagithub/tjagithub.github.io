@@ -14,24 +14,10 @@ const socials = [
   },
   {
     key: 1,
-    icon: <Mail size={20} />,
-    href: 'mailto:tjaemails@gm*il.com',
-    label: 'Email',
-    handle: 'tjaemails@gm*il.com',
-  },
-  {
-    key: 2,
     icon: <Github size={20} />,
     href: 'https://github.com/tjagithub',
     label: 'Github',
     handle: 'tjagithub',
-  },
-  {
-    key: 3,
-    icon: <Twitch size={20} />,
-    href: 'https://twitch.tv/tjastream',
-    label: 'Twitch',
-    handle: 'tjastream',
   },
 ];
 
