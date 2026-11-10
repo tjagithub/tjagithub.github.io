@@ -1,4 +1,3 @@
-<div align="center">
-    <a href="https://tjagithub.github.io"><h1 align="center">Timothy J. Appleby</h1></a>
+# tjagithub.github.io
 
-My personal website, built with [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/).
+Plain static page: `index.html`, deployed by GitHub Pages.
